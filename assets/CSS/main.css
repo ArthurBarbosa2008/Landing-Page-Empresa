@@ -1,0 +1,40 @@
+.sobre-aethertech {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sobre-aethertech article{
+    width: 300px;
+}
+
+.sobre-aethertech article h1{
+    font-size: 60px;
+    line-height: 90%;
+    font-weight: 800;
+}
+
+.sobre-aethertech article h1 span:nth-of-type(1){
+    color: #f49629;
+}
+
+.sobre-aethertech article h1 span:nth-of-type(2){
+    color: #c0ceff;
+}
+
+.sobre-aethertech article h2{
+    color: #c0ceff;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Gilda Display", serif; 
+    line-height: 200%;
+}
+
+.sobre-aethertech article p{
+    color: white;
+    margin: 10px 0 30px;
+}
+
+.sobre-aethertech figcaption img {
+    width: 450px;
+}
