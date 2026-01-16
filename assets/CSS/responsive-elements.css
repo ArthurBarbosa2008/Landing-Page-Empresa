@@ -1,0 +1,52 @@
+@media (max-width: 1150px){
+    .container{
+        width: 950px;
+    }
+}
+
+@media (max-width: 1024px){
+    .container{
+        width: 800px;
+    }
+}
+
+@media (max-width: 915px){
+    .row {
+        flex-direction: column;
+    }
+
+    .container {
+        width: 600px;
+    }
+
+    .sobre-aethertech figcaption img {
+        display: flex;
+        width: 100%;
+        margin: 30px 0;
+    }
+
+    header nav {
+        margin: 30px 0;
+    }
+
+    .sobre-aethertech article{
+        width: 100%;
+    }
+
+    footer .row{
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 665px){
+    .container {
+        width: 400px;
+    }
+}
+
+@media (max-width: 450px){
+    .container{
+        width: 300px;
+    }
+}

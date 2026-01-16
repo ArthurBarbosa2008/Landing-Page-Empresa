@@ -1,0 +1,31 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Source Sans 3", sans-serif;
+    vertical-align: baseline;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100dvh;
+}
+
+body{
+    background-image: linear-gradient(180deg, #010410, #001737);
+}
+
+.container {
+    width: 1024px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
