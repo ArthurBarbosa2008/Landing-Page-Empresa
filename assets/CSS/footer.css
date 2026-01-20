@@ -4,4 +4,9 @@ footer ul li{
 
 footer ul li img{
     width: 40px;
+    transition: 0.5s;
+}
+
+footer ul li img:hover{
+    filter: brightness(75%);
 }
