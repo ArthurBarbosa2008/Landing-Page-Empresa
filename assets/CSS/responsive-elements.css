@@ -66,4 +66,12 @@
         margin: 10px 0;
 
     }
+
+    .sobre-aethertech article h1 {
+        font-size: 45px;
+    }
+
+    .sobre-aethertech article h2 {
+        font-size: 20px;
+    }
 }
